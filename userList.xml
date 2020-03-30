@@ -1,0 +1,19 @@
+<!--
+Finesse user list
+The following ones will be disconnected
+-->
+
+<xml>
+	<users>
+		<user>
+			<id>Agent002</id>
+			<lastname></lastname>
+			<firstname></firstname>
+		</user>
+		<user>
+			<id>Agent013</id>
+			<lastname></lastname>
+			<firstname></firstname>
+		</user>
+	</users>
+</xml>

@@ -1,0 +1,23 @@
+﻿<!--
+Overal configuration file
+-->
+
+<xml>
+	<config>
+		<!--Misc-->
+		<log4j>DEBUG</log4j><!--Logging level : ERROR,INFO,DEBUG-->
+		<language>french</language><!--french,english-->
+		<csvsplitter>,</csvsplitter>
+		<maxtaskthread>1</maxtaskthread>
+		<maxtask>1</maxtask>
+		<!--Smtp parameters-->
+		<smtpemailenable>true</smtpemailenable>
+		<smtpemailport>25</smtpemailport>
+		<smtpemailprotocol>smtp</smtpemailprotocol>
+		<smtpemailserver>smtp.certiam.cnaf</smtpemailserver>
+		<smtpemail>fm_noreply@certiam.cnaf</smtpemail>
+		<smtpemailpassword></smtpemailpassword>
+		<smtpemailreceiver>alexandre.ratel@spie.com</smtpemailreceiver><!--One or more destinations separated by a ;-->
+		<smtpemailcontent>Hi,\r\n\t\r\n\tAgent logout task has just ended with the following result :\r\n\t</smtpemailcontent>
+	</config>
+</xml>

@@ -1,0 +1,28 @@
+<!--
+Tasks configuration file
+-->
+
+<xml>
+	<tasks>
+		<task>
+			<!--Misc-->
+			<id>SPIE</id>
+			<userfile>userList.xml</userfile>
+			<runtime>17:03</runtime><!--24h format ex: 23:00-->
+			<rundays>lundi,mardi,mercredi,jeudi,vendredi</rundays><!--Days to run separated by a coma-->
+			<timeout>10000</timeout>
+			<!--UCCX parameters-->
+			<uccxhost>10.10.20.10</uccxhost><!--IP of the UCCX server-->
+			<uccxport>8445</uccxport><!--Port to contact the UCCX server using REST-->
+			<uccxversion>115</uccxversion><!--Version of the UCCX server-->
+			<uccxusername>Agent001</uccxusername><!--Username to contact the UCCX server-->
+			<uccxpassword>ciscopsdt</uccxpassword><!--Password !!!!Warning : keep it secret!!!!-->
+			<!--AXL parameters-->
+			<axlhost>10.0.1.172</axlhost><!--IP of the CUCM server-->
+			<axlport>8443</axlport><!--Port to contact the CUCM server using AXL-->
+			<axlversion>105</axlversion><!--85 or 105--><!--AXL version of the CUCM-->
+			<axlusername>FMUser</axlusername><!--AXL user name to contact the CUCM server-->
+			<axlpassword>CCMCisco92</axlpassword><!--Password of the AXL user in clear !!!!Warning : keep it secret!!!!-->
+		</task>
+	</tasks>
+</xml>
